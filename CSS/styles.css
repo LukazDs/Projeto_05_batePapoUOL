@@ -1,0 +1,77 @@
+.conteudo {
+    position: relative;
+    width: 375px;
+    height: 667px;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topo {
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo > img {
+    object-fit: cover;
+    width: 75px;
+    height: 53px;
+    margin-left: 22px;
+}
+.topo > ion-icon {
+    font-size: 40px;
+    margin-right: 22px;
+}
+
+.mensagens {
+    background: #E5E5E5;
+}
+.enviar {
+    position: absolute;
+    width: 375px;
+    height: 80px;
+    left: 0px;
+    bottom: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.enviar > ion-icon {
+    font-size: 28px;
+    margin-right: 22px;
+}
+.barra-envio {
+    width: 145px;
+    height: 30px;
+    border: none;
+    margin-left: 22px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
